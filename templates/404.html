@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    {{ template "meta" }}
+    {{ template "css"  }}
+    {{ template "styles" }}
+
+    <title>404 Not Found</title>
+  </head>
+
+  <body>
+    {{ template "navbar" }}
+
+    <div id="particles-js"></div>
+
+    <div class="container-fluid" style="padding-top: 70px;">
+	<div class="col-6 offset-md-2">
+        <h1 id="menu">Page 404</h1>
+        <img src="https://media.giphy.com/media/CdY6WueirK8Te/giphy.gif" alt="HAL">
+        <p id="menu" class="lead">I'm sorry, Dave. I'm afraid I can't do that.<br>The page you are looking for does not exist.</p>
+	</div>
+    </div>
+    
+    {{ template "social" }}
+    {{ template "js" }}
+  </body>
+</html>

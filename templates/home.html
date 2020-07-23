@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    {{ template "meta" }}
+    {{ template "css"  }}
+    {{ template "styles" }}
+
+    <title>BDCAT 2020</title>
+  </head>
+
+  <body>
+     {{ template "navbar" }}
+
+     <!-- Conference Name and Dates -->
+     <div id="particles-js"></div>
+     <div class="container" style="padding-top: 100px; padding-bottom: 20px;">
+       <div class="col-12">
+         <h1 id="menu">BDCAT 2020 | Leicester, UK | Dec 7-10</h1>
+         <h3 id="menu">7th IEEE/ACM Big Data Computing, Applications and Technologies</h3>
+       </div>
+     </div>
+     
+     <!-- Slideshow of Important Notices -->
+     <div class="container-fluid"><div id="notices" class="col-12">
+      <div id="carouselInfo" class="carousel slide col-8 offset-md-2" data-ride="carousel" data-interval="10000">
+       <!-- Indicators -->
+       <ol class="carousel-indicators">
+         <li data-target="#carouselInfo" data-slide-to="0" class="active"></li>
+	 <li data-target="#carouselInfo" data-slide-to="1" ></li>
+	 <li data-target="#carouselInfo" data-slide-to="2" ></li>
+       </ol>
+
+       <!-- The slideshow -->
+       <div class="carousel-inner" style="height: 320px">
+         <div class="carousel-item active" style="padding-top: 40px">
+           <p class="lead">During an era of unprecedented change we are faced with challenges that are well beyond traditional data-processing techniques. 
+	   Big Data aims to ease analysis of large and varied data sets in a systematic fashion. 
+	   Nowadays, Big Data is  the driving force for innovation that greatly impacts scientific, medical and socio-economic areas.<br><br>
+           The IEEE/ACM International Conference on Big Data Computing, Applications and Technologies (BDCAT) is an annual conference series aiming to provide a platform for researchers from both academia and industry to present new discoveries in the broad area of Big Data computing and applications.</p>
+         </div>
+	 <div class="carousel-item">
+	   <br><br>
+	   {{ template "covid" }}
+	 </div>
+	 <div class="carousel-item">
+           <br>
+	   <h3>Important Dates</h3>
+	   {{ template "dates" }}
+	 </div>
+       </div>
+      </div>
+      </div></div>
+
+     <!-- Sponsor logos -->
+     <div class="container-fluid" style="padding-top: 20px;"><div class="col-12" style="background-color:white;">
+        <h3>Sponsors</h3>
+	<div class="row">
+	  <div class="col-3"><a href="https://le.ac.uk/"><img src="/static/images/uol_logo.jpg" alt="University of Leicester Logo" height="70"></a></div>
+	  <div class="col-3"><a href="http://www.acm.org/"><img src="/static/images/acm_logo.png" alt="ACM Logo" height="70"></a></div>
+	  <div class="col-3"><a href="http://www.ieee.org/"><img src="/static/images/IEEE_logo.png" alt="IEEE Logo" height="70"></a></div>
+	  <div class="col-3"><a href="http://www.sigarch.org/"><img src="/static/images/sigarchLogoUC.png" alt="SIGARCH" height="70"></a></div>
+	</div>
+	<div class="row" style="padding-top: 20px; padding-bottom: 20px">
+	  <div class="col-2"><a href="https://www.ieeetcsc.org/"><img src="/static/images/tcsc-logo.gif" height="70"></a></div>
+	  <div class="col-2"><a href="http://www.cloudbus.org/"><img src="/static/images/cloudbuslogo.png" height="70"></a></div>
+	  <div class="col-2"><a href="http://www.computer.org/portal/web/guest/home"><img src="/static/images/ICS_stacked-transparent.gif" height="70"></a></div>
+	  <div class="col-3"><img src="/static/images/STC_CloudComputing.png" height="40"></div>
+	  <div class="col-2"><a href="http://stc-sustainable-computing.ieee.net/home"><img src="/static/images/STCLogo1.png" height="40"></a></div>
+	</div>
+      </div></div>
+      
+      {{ template "social" }}
+      {{ template "js" }}
+  </body>
+</html>

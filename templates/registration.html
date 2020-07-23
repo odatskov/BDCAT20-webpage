@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    {{ template "meta" }}
+    {{ template "css"  }}
+    {{ template "styles" }}
+
+    <title>Registration</title>
+  </head>
+
+  <body>
+     {{ template "navbar" }}
+
+     <div class="jumbotron jumbotron-fluid" style="padding-top: 80px">
+      <div class="container">
+        {{ template "covid" }}
+      </div>
+     </div>
+
+    <div class="container">
+
+    <p class="lead" style="padding-top: 20px">
+    Registration link: TBA<br>
+    The following table lists registration fees for UCC/BDCAT events:
+    </p>
+
+    <table class="table">
+    <thead>
+      <tr>
+        <th scope="col"></th>
+	<th scope="col">Early+Author</th>
+	<th scope="col">Early+Attendee/Non-author</th>
+	<th scope="col">Late Registration</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">IEEE Member</th>
+	<td>150 GBP</td>
+	<td>90 GBP</td>
+	<td>170 GBP</td>
+      </tr>
+      <tr>
+	<th scope="row">Non-IEEE Member</th>
+	<td>180 GBP</td>
+	<td>110 GBP</td>
+	<td>210 GBP</td>
+      </tr>
+      <tr>
+        <th scope="row">IEEE Student Member</th>
+	<td>125 GBP *</td>
+	<td>70 GBP</td>
+	<td>125 GBP</td>
+      </tr>
+      <tr>
+	<th scope="row">Non-IEEE Student Member</th>
+	<td>150 GBP **</td>
+	<td>90 GBP</td>
+	<td>170 GBP</td>
+      </tr>
+    </tbody>
+    </table>
+    <p class="lead">
+    *  The first author of the paper must be a student with a current IEEE Student membership.<br>
+    ** The first author of the paper must be a student.</p>
+    </div>
+
+    {{ template "social" }}
+    {{ template "js" }}
+  </body>
+</html>
