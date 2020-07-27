@@ -2,8 +2,8 @@
 {{- define "dates" -}}
 	   <table class="table">
 	   <tbody>
-	     <tr><td>Paper Submission Due:</td><td>July 30, 2020</td></tr>
-	     <tr><td>Notification of Acceptance:</td><td>September 15, 2020</td></tr>
+	     <tr><td>Paper Submission Due:</td><td><del>July 30, 2020</del><a style="color: #ED6FA2">&ensp;August 20, 2020</a></td></tr>
+	     <tr><td>Notification of Acceptance:</td><td>September 20, 2020</td></tr>
 	     <tr><td>Camera-ready Paper Due:</td><td>October 1, 2020</td></tr>
 	     <tr><td>Early+Author Registration Deadline:</td><td>October 1, 2020</td></tr>
 	     <tr><td>Conference:</td><td>December 7-10, 2020</td></tr>
